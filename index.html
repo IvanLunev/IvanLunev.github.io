@@ -1,0 +1,47 @@
+---
+layout: default
+title: Мама, я БЛОГЕР!
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url|prepend: site.baseurl}}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.description }} 
+  </div>
+{% endfor %}
+ 
+ 
+ 
+ 
+<hr>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;Prev  </a>
+  {% else %}
+   &laquo; <span> Prev   </span >&nbsp;
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+     &nbsp; <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> {{ page }} </a>&nbsp;
+    {% else %}
+      &nbsp; <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }} </a>&nbsp;
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> Next &raquo;</a> 
+  {% else %}
+    &nbsp; <span> Next</span> &raquo;
+  {% endif %}
+</div>
+{% endif %}
+
