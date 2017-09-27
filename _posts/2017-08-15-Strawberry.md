@@ -1,14 +1,15 @@
 ---
-layout: post
 title: Strawberry
+date: 2017-08-15 09:12:04 Z
+categories:
+- jekyll
+layout: post
 header: <font color="#ff99ff"> Собираю, продаю... </font>
-description: 
+description:
 - Этим летом я помогал маме с ее сельскохозяйственным бизнесом. <br />
 - Моя задача состояла в собирании и продавании клубники :) <br />
 - Хочешь узнать подробнее? ЗАХОДИ! ОЧЕНЬ ИНТЕРЕСНО!!! <br />
--  <br />
-date:   2017-08-15 12:12:04 +0300
-category: jekyll
+- "<br />"
 ---
 
 <center> <h1> mmmm... КЛУБНИЧКА!!!! </h1> </center>
