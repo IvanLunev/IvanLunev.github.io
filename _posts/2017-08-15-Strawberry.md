@@ -21,7 +21,7 @@ layout: post
 я так ее наелся, что больше не мог смотреть. После сбора я содился в машину и вез все на рынок. Продавая клубнику, я познакомился с местными
 арбузодилерами. Хорошие ребята. Каждое утро наслаждались с ними наилучшили синглами типа: "Я дурууг, ты дурууг, МЫ КРИМИНАЛЬНЫЙ КРУУУГ...".
 
-<p ><audio controls> <source src="uploads/durug-e2956c.mp3" controls></audio> </p>
+<p ><audio controls> <source src="uploads/durug.mp3" controls></audio> </p>
 
 <br /><br />
 <img src="images/wtmln.jpg" style="width:33%;height:33%; float: left;">
