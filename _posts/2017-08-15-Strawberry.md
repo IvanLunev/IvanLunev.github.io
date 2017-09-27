@@ -1,6 +1,6 @@
 ---
 title: Strawberry
-date: 2017-08-15 09:12:00 +0300
+date: 2017-08-15 06:12:00 Z
 categories:
 - jekyll
 header: <font color="#ff99ff"> Собираю, продаю... </font>
