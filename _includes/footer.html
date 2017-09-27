@@ -62,8 +62,8 @@ function setCookie( name, value, expires, path, domain, secure ) {
 function resize(v){
     e=document.body;
     var c=e.currentStyle || window.getComputedStyle(e, null);
-    if(v)c=Math.max(8,Math.min(20,parseInt(c.fontSize)+v))+'px';
-    else c='11px';
+    if(v)c=Math.max(8,Math.min(30,parseInt(c.fontSize)+v))+'px';
+    else c='20px';
     e.style.fontSize= c;
     //console.log(c);
     setCookie( "fontSize", c);
